@@ -1,0 +1,37 @@
+["etudient":
+    {
+        "prénon": "John",
+        "nom": "Smith",
+        "age": "16-05-1999",
+        "loisir": ["karaté","foot"],
+    },
+    {
+        "prénon": "ali",
+        "nom": "bodrar",
+        "age": "16-05-1999",
+        "loisir": ["gym","foot"],
+    },
+    {
+        "prénon": "moussa",
+        "nom": "soussi",
+        "age": "16-05-1979",
+        "loisir": ["yoga","foot"],
+    },
+    {
+        "prénon": "faty",
+        "nom": "fleur",
+        "age": "16-05-1999",
+        "loisir": ["la marche","foot"],
+    },
+    {
+        "prénon": "youssef",
+        "nom": "youssefy",
+        "age": "16-05-1996",
+        "loisir": ["karaté","foot"],
+    },
+    {
+        "prénon": "John",
+        "nom": "ben",
+        "age": "16-04-1990",
+        "loisir": ["yoga","sport"],
+    },

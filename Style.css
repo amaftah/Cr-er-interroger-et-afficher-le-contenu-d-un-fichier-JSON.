@@ -1,0 +1,12 @@
+
+.card img{
+    flex-grow: 1;
+    background-size: cover;
+    object-fit: cover;
+    height: 400px;
+}
+body{
+    background-color: antiquewhite;
+}
+
+

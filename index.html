@@ -5,124 +5,148 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="./Style.css">
 <!-- Bootstrap JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <title>Cinéma</title>
 </head>
 <body>
-  <!-- Header -->
+<!-- Header -->
   <div class="container-fluid bg-primary py-3">
     <div class="container">
-      <h1 class="text-white text-center">Welcome to My Movie Theater</h1>
+      <h1 class="text-white text-center">Cinéma la casa</h1>
     </div>
   </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-3" id="movie1">
         <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 1">
+          <img src="./The Shawshank Redemption [DVD] [1994] - Best Buy.jpg" class="card-img-top" alt="Film 1" >
           <div class="card-body">
-            <h5 class="card-title">Film 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">The Shawshank Redemption</h5>
+            <p class="card-text">The Shawshank Redemption is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption.</p>
             <a href="#" class="btn btn-primary">Watch Now</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-3" id="movie2">
         <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 2">
+          <img src="./''The Godfather'' by Francis Ford Coppola- Best picture - Oscar - 1973.jpg" class="card-img-top" alt="Film 2">
           <div class="card-body">
-            <h5 class="card-title">Film 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">The Godfather</h5>
+            <p class="card-text">The Godfather is a 1972 American crime film directed by Francis Ford Coppola, who co-wrote the screenplay with Mario Puzo, based on Puzo's best-selling 1969 novel of the same title.</p>
             <a href="#" class="btn btn-primary">Watch Now</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-3" id="movie3">
         <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 3">
+          <img src="./The Godfather Part 2.jpg" class="card-img-top" alt="Film 3">
           <div class="card-body">
-            <h5 class="card-title">Film 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">The Godfather: Part II</h5>
+            <p class="card-text">The Godfather Part II is a 1974 American epic crime film produced and directed by Francis Ford Coppola. The film is partially based on the 1969 novel The Godfather by Mario Puzo, who co-wrote the screenplay with Coppola. </p>
             <a href="#" class="btn btn-primary">Watch Now</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-3" id="movie4">
         <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 4">
+          <img src="./_The Dark Knight.jpg" class="card-img-top" alt="Film 4">
           <div class="card-body">
-            <h5 class="card-title">Film 4</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">The Dark Knight</h5>
+            <p class="card-text">The Dark Knight is a 2008 superhero film directed by Christopher Nolan from a screenplay he co-wrote with his brother Jonathan. </p>
             <a href="#" class="btn btn-primary">Watch Now</a>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3" id="movie5">
             <div class="card" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 1">
+              <img src="./téléchargement.jpg" class="card-img-top" alt="Film 1">
               <div class="card-body">
-                <h5 class="card-title">Film 1</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">12 Angry Men</h5>
+                <p class="card-text">12 Angry Men is a 1957 American courtroom drama film directed by Sidney Lumet, adapted from a 1954 teleplay of the same name by Reginald Rose.</p>
                 <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3" id="movie6">
             <div class="card" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 2">
+              <img src="./Schindler's List (1993).jpg" class="card-img-top" alt="Film 2">
               <div class="card-body">
-                <h5 class="card-title">Film 2</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Schindler's List</h5>
+                <p class="card-text">Schindler's List is a 1993 American epic historical drama film directed and produced by Steven Spielberg and written by Steven Zaillian.</p>
                 <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3" id="movie7">
             <div class="card" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 3">
+              <img src="./Pulp Fiction (1994).jpg" class="card-img-top" alt="Film 3">
               <div class="card-body">
-                <h5 class="card-title">Film 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Pulp Fiction</h5>
+                <p class="card-text">Pulp Fiction or Pulp Fiction in Quebec, is an American gangster film directed by Quentin Tarantino and released in 1994. The screenplay is co-written by Tarantino and Roger Avary</p>
                 <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3" id="movie8">
             <div class="card" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 4">
+              <img src="./lord.jpg" class="card-img-top" alt="Film 4">
               <div class="card-body">
-                <h5 class="card-title">Film 4</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">The Lord of the Rings: The Return of the King</h5>
+                <p class="card-text">The Lord of the Rings: The Return of the King is a 2003 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh,</p>
                 <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3" id="movie9">
             <div class="card" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 3">
+              <img src="./Fight Club.jpg" class="card-img-top" alt="Film 3">
               <div class="card-body">
-                <h5 class="card-title">Film 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Fight Club</h5>
+                <p class="card-text">Fight Club is a 1999 American film directed by David Fincher and starring Brad Pitt, Edward Norton, and Helena Bonham Carter. It is based on the 1996 novel of the same name by Chuck Palahniuk.</p>
                 <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="col-sm-6 col-md-4 col-lg-3" id="movie10">
             <div class="card" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150x200" class="card-img-top" alt="Film 4">
+              <img src="./The Good, The Bad and The Ugly.jpg" class="card-img-top" alt="Film 4">
               <div class="card-body">
-                <h5 class="card-title">Film 4</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">The Good, the Bad and the Ugly</h5>
+                <p class="card-text">The Good, the Bad and the Ugly is a 1966 Italian epic spaghetti Western film directed by Sergio Leone and starring Clint Eastwood as "the Good", Lee Van Cleef as "the Bad", and Eli Wallach as "the Ugly".</p>
                 <a href="#" class="btn btn-primary">Watch Now</a>
               </div>
             </div>
           </div>
           
-  <!-- Footer -->
+<!-- Footer -->
   <div class="container-fluid bg-dark py-5 mt-7">
     <div class="container text-center text-white">
       <p>Phone: 555-555-1212</p>
@@ -130,6 +154,31 @@
       <p>Address: 123 Main Street, Anytown USA 12345</p>
     </div>
   </div>
-  
+  <script>
+
+  // Create a new XMLHttpRequest object
+var xhr = new XMLHttpRequest();
+
+// Set the URL of the resource you want to fetch
+xhr.open('GET', './movies.Json', true);
+
+// Set the responseType to 'json' so that the response is parsed as JSON
+xhr.responseType = 'json';
+
+// Set an event handler to be called when the request is complete
+xhr.onreadystatechange = function() {
+  // Check that the request is complete and was successful
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    // Get the JSON data from the response
+    var data = xhr.response;
+
+    // Do something with the data, such as parse it or display it on the page
+  }
+};
+
+// Send the request
+xhr.send();
+
+</script>
 </body>
 </html>
