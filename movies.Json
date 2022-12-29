@@ -1,63 +1,101 @@
-[
+{"movies" :[
     {
-      "title": "The Shawshank Redemption",
-      "year": 1994,
-      "genre": "Drama",
-      "rating": 9.3
+      "titre": "The Shawshank Redemption",
+      "réalisateur": "Frank Darabont",
+      "durée": 142,
+      "l'année de production": "1994-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "The Godfather",
-      "year": 1972,
-      "genre": "Crime, Drama",
-      "rating": 9.2
+      "titre": "The Godfather",
+      "réalisateur": "Albert S Ruddy",
+      "durée": 142,
+      "l'année de production": "1994-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
     },
     {
-      "title": "The Godfather: Part II",
-      "year": 1974,
-      "genre": "Crime, Drama",
-      "rating": 9.0
+      "titre": "The Godfather: Part II",
+      "réalisateur": "Albert S Ruddy",
+      "durée": 142,
+      "l'année de production": "1994-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "The Dark Knight",
-      "year": 2008,
-      "genre": "Action, Crime, Drama",
-      "rating": 9.0
+      "titre": "The Dark Knight",
+      "réalisateur":  "Christopher Nolan",
+      "durée": 142,
+      "l'année de production": "2008-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "12 Angry Men",
-      "year": 1957,
-      "genre": "Drama",
-      "rating": 8.9
+      "titre": "12 Angry Men",
+      "réalisateur": "Sidney Lumet",
+      "durée": 142,
+      "l'année de production": "1957-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "Schindler's List",
-      "year": 1993,
-      "genre": "Biography, Drama, History",
-      "rating": 8.9
+      "titre": "Schindler's List",
+      "réalisateur": "Steven Spielberg",
+      "durée": 142,
+      "l'année de production": "1993-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "Pulp Fiction",
-      "year": 1994,
-      "genre": "Crime, Drama",
-      "rating": 8.9
+      "titre": "Pulp Fiction",
+      "réalisateur": "Quentin Tarantino",
+      "durée": 142,
+      "l'année de production": "1994-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "The Lord of the Rings: The Return of the King",
-      "year": 2003,
-      "genre": "Adventure, Drama, Fantasy",
-      "rating": 8.9
+      "titre": "The Lord of the Rings: The Return of the King",
+      "réalisateur": "Peter Jackson",
+      "durée": 142,
+      "l'année de production": "2003-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "Fight Club",
-      "year": 1999,
-      "genre": "Drama",
-      "rating": 8.8
+      "titre": "Fight Club",
+      "réalisateur": "David Fincher",
+      "durée": 142,
+      "l'année de production": "1999-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+
     },
     {
-      "title": "The Good, the Bad and the Ugly",
-      "year": 1966,
-      "genre": "Western",
-      "rating": 8.8
+      "titre": "The Good, the Bad and the Ugly",
+      "réalisateur": "Sergio Leone",
+      "durée": 142,
+      "l'année de production": "1966-09-23",
+      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
+      "festivals":"pas de  festival " ,
+      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
     }
-  ]
+  ]}
   
