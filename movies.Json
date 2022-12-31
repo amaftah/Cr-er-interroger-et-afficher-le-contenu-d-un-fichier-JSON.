@@ -1,101 +1,211 @@
-{"movies" :[
-    {
-      "titre": "The Shawshank Redemption",
-      "réalisateur": "Frank Darabont",
-      "durée": 142,
-      "production": "1994-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
+[
+  {
+      "titre": "Le Parrain",
+      "réalisateur": "Francis Ford Coppola",
+      "durée": 175,
+      "année": 1972,
+      "poster": "imgg/le-parrain-affiche-francaise-1173785.jpg",
+      "festivals": [
+        "Festival de Cannes",
+        "Oscars"
+      ],
+      "actors": [
+        {
+          "nom": "Marlon",
+          "prenom": "Brando",
+          "nationality": "Américaine"
+        },
+        {
+          "nom": "Al",
+          "prenom": "Pacino",
+          "nationality": "Américaine"
+        },
+        {
+          "nom": "James",
+          "prenom": "Caan",
+          "nationality": "Américaine"
+        }
+      ]
     },
-    {
-      "titre": "The Godfather",
-      "réalisateur": "Albert S Ruddy",
-      "durée": 142,
-      "production": "1994-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-    },
-    {
-      "titre": "The Godfather: Part II",
-      "réalisateur": "Albert S Ruddy",
-      "durée": 142,
-      "production": "1994-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
-    },
-    {
+  {
       "titre": "The Dark Knight",
-      "réalisateur":  "Christopher Nolan",
-      "durée": 142,
-      "production": "2008-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
+      "réalisateur": "Christopher Nolan",
+      "durée": "152 minutes",
+      "année": "2008",
+      "poster": "imgg/dark-knight.jpeg",
+      "festivals": [
+      "Cannes Film Festival",
+      "Toronto International Film Festival"
+      ],
+      "actors": [
+      {
+      "nom": "Christian",
+      "prenom": "Bale",
+      "nationality": "British"
+      },
+      {
+      "nom": "Heath",
+      "prenom": "Ledger",
+      "nationality": "Australian"
+      },
+      {
+      "nom": "Gary",
+      "prenom": "Oldman",
+      "nationality": "British"
+      }
+      ]
+      },
+      {
+          "titre": "Pulp Fiction",
+          "réalisateur": "Quentin Tarantino",
+          "durée": "154 minutes",
+          "année": "1994",
+          "poster": "imgg/Pulp-Fiction.jpg",
+          "festivals": [
+          "Cannes Film Festival",
+          "Venice Film Festival"
+          ],
+          "actors": [
+          {
+          "nom": "John",
+          "prenom": "Travolta",
+          "nationality": "American"
+          },
+          {
+          "nom": "Samuel",
+          "prenom": "L. Jackson",
+          "nationality": "American"
+          },
+          {
+          "nom": "Uma",
+          "prenom": "Thurman",
+          "nationality": "American"
+          }
+          ]
+          },
+  {"titre": "Interstellar",
+"réalisateur": "Christopher Nolan",
+"durée": "169 minutes",
+"année": "2014",
+"poster": "imgg/Interstellar.jpeg",
+"festivals": [
+"Venice Film Festival",
+"Toronto International Film Festival"
+],
+"actors": [
+{
+"nom": "Matthew",
+"prenom": "McConaughey",
+"nationality": "American"
+},
+{
+"nom": "Anne",
+"prenom": "Hathaway",
+"nationality": "American"
+},
+{
+"nom": "Jessica",
+"prenom": "Chastain",
+"nationality": "American"
+}
+]
+},
+{
+  "titre": "La Liste de Schindler",
+  "réalisateur": "Steven Spielberg",
+  "durée": 195,
+  "année": 1993,
+  "poster": "imgg/La-Liste-de-Schindler.jpg",
+  "festivals": [
+    "Oscars",
+    "Golden Globes"
+  ],
+  "actors": [
+    {
+      "nom": "Liam",
+      "prenom": "Neeson",
+      "nationality": "Irlandaise"
     },
     {
-      "titre": "12 Angry Men",
-      "réalisateur": "Sidney Lumet",
-      "durée": 142,
-      "production": "1957-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
+      "nom": "Ralph",
+      "prenom": "Fiennes",
+      "nationality": "Britannique"
     },
     {
-      "titre": "Schindler's List",
-      "réalisateur": "Steven Spielberg",
-      "durée": 142,
-      "production": "1993-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
-    },
-    {
-      "titre": "Pulp Fiction",
-      "réalisateur": "Quentin Tarantino",
-      "durée": 142,
-      "production": "1994-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
-    },
-    {
-      "titre": "The Lord of the Rings: The Return of the King",
-      "réalisateur": "Peter Jackson",
-      "durée": 142,
-      "production": "2003-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
-    },
-    {
-      "titre": "Fight Club",
-      "réalisateur": "David Fincher",
-      "durée": 142,
-      "production": "1999-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
-
-    },
-    {
-      "titre": "The Good, the Bad and the Ugly",
-      "réalisateur": "Sergio Leone",
-      "durée": 142,
-      "production": "1966-09-23",
-      "poster":"https://m.media-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "festivals":"pas de  festival " ,
-      "acteurs" :["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"]
+      "nom": "Ben",
+      "prenom": "Kingsley",
+      "nationality": "Britannique"
     }
-  ]}
+  ]
+}, 
+{
+  "titre": "The Shawshank Redemption",
+  "réalisateur": "Frank Darabont",
+  "durée": 142,
+  "année": 1994,
+  "poster": "imgg/The-Shawshank-Redemption.jpeg",
+  "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
+  "actors": [
+    {
+      "nom": "Tim",
+      "prenom": "Robbins",
+      "nationality": "American"
+    },
+    {
+      "nom": "Morgan",
+      "prenom": "Freeman",
+      "nationality": "American"
+    },
+    {
+      "nom": "Bob",
+      "prenom": "Gunton",
+      "nationality": "American"
+    }
+  ]
+},
+{
+  "titre": "The Godfather",
+  "réalisateur": "Francis Ford Coppola",
+  "durée": 175,
+  "année": 1972,
+  "poster": "imgg/The-Godfather.jpeg",
+  "festivals": ["Cannes Film Festival"],
+  "actors": [
+    {
+      "nom": "Marlon",
+      "prenom": "Brando",
+      "nationality": "American"
+    },
+    {
+      "nom": "Al",
+      "prenom": "Pacino",
+      "nationality": "American"
+    },
+    {
+      "nom": "James",
+      "prenom": "Caan",
+      "nationality": "American"
+    }
+  ]
+},
+{
+  "titre": "Inception",
+  "réalisateur": "Christopher Nolan",
+  "durée": 148,
+  "année": 2010,
+  "poster": "imgg/Inception.jpeg",
+  "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
+  "actors": [
+    {
+      "nom": "Leonardo",
+      "prenom": "Caprio",
+      "nationality": "American"
+    },
+    {
+      "nom": "Joseph",
+      "prenom": "Gordon",
+      "nationality": "American"
+    }]
+}
   
+]
