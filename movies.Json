@@ -5,11 +5,13 @@
       "durée": 175,
       "année": 1972,
       "poster": "imgg/le-parrain-affiche-francaise-1173785.jpg",
-      "festivals": [
+      "festivals": 
+      [
         "Festival de Cannes",
         "Oscars"
       ],
-      "actors": [
+      "actors": 
+      [
         {
           "nom": "Marlon",
           "prenom": "Brando",
@@ -34,81 +36,82 @@
       "année": "2008",
       "poster": "imgg/dark-knight.jpeg",
       "festivals": [
-      "Cannes Film Festival",
-      "Toronto International Film Festival"
-      ],
+                      "Cannes Film Festival",
+                      "Toronto International Film Festival"
+                    ],
       "actors": [
-      {
-      "nom": "Christian",
-      "prenom": "Bale",
-      "nationality": "British"
-      },
-      {
-      "nom": "Heath",
-      "prenom": "Ledger",
-      "nationality": "Australian"
-      },
-      {
-      "nom": "Gary",
-      "prenom": "Oldman",
-      "nationality": "British"
-      }
-      ]
-      },
-      {
+                    {
+                    "nom": "Christian",
+                    "prenom": "Bale",
+                    "nationality": "British"
+                    },
+                  {
+                  "nom": "Heath",
+                  "prenom": "Ledger",
+                  "nationality": "Australian"
+                  },
+                  {
+                  "nom": "Gary",
+                  "prenom": "Oldman",
+                  "nationality": "British"
+                  }
+                ]
+  },
+  {
           "titre": "Pulp Fiction",
           "réalisateur": "Quentin Tarantino",
           "durée": "154 minutes",
           "année": "1994",
           "poster": "imgg/Pulp-Fiction.jpg",
           "festivals": [
-          "Cannes Film Festival",
-          "Venice Film Festival"
-          ],
+                          "Cannes Film Festival",
+                          "Venice Film Festival"
+                        ],
           "actors": [
-          {
-          "nom": "John",
-          "prenom": "Travolta",
-          "nationality": "American"
-          },
-          {
-          "nom": "Samuel",
-          "prenom": "L. Jackson",
-          "nationality": "American"
-          },
-          {
-          "nom": "Uma",
-          "prenom": "Thurman",
-          "nationality": "American"
-          }
-          ]
-          },
-  {"titre": "Interstellar",
-"réalisateur": "Christopher Nolan",
-"durée": "169 minutes",
-"année": "2014",
-"poster": "imgg/Interstellar.jpeg",
-"festivals": [
-"Venice Film Festival",
-"Toronto International Film Festival"
-],
+                      {
+                      "nom": "John",
+                      "prenom": "Travolta",
+                      "nationality": "American"
+                      },
+                      {
+                      "nom": "Samuel",
+                      "prenom": "L. Jackson",
+                      "nationality": "American"
+                      },
+                      {
+                      "nom": "Uma",
+                      "prenom": "Thurman",
+                      "nationality": "American"
+                      }
+                    ]
+  },
+  {
+    "titre": "Interstellar",
+    "réalisateur": "Christopher Nolan",
+    "durée": "169 minutes",
+    "année": "2014",
+    "poster": "imgg/Interstellar.jpeg",
+    "festivals":  [
+                    "Venice Film Festival",
+                    "Toronto International Film Festival"
+                  ],
 "actors": [
-{
-"nom": "Matthew",
-"prenom": "McConaughey",
-"nationality": "American"
-},
-{
-"nom": "Anne",
-"prenom": "Hathaway",
-"nationality": "American"
-},
-{
-"nom": "Jessica",
-"prenom": "Chastain",
-"nationality": "American"
-}
-]
+              {
+              "nom": "Matthew",
+              "prenom": "McConaughey",
+              "nationality": "American"
+              },
+              {
+              "nom": "Anne",
+              "prenom": "Hathaway",
+              "nationality": "American"
+              },
+              {
+              "nom": "Jessica",
+              "prenom": "Chastain",
+              "nationality": "American"
+              }
+          ]
 },
 {
   "titre": "La Liste de Schindler",
@@ -116,27 +119,27 @@
   "durée": 195,
   "année": 1993,
   "poster": "imgg/La-Liste-de-Schindler.jpg",
-  "festivals": [
-    "Oscars",
-    "Golden Globes"
-  ],
+  "festivals":  [
+                  "Oscars",
+                  "Golden Globes"
+                ],
   "actors": [
-    {
-      "nom": "Liam",
-      "prenom": "Neeson",
-      "nationality": "Irlandaise"
-    },
-    {
-      "nom": "Ralph",
-      "prenom": "Fiennes",
-      "nationality": "Britannique"
-    },
-    {
-      "nom": "Ben",
-      "prenom": "Kingsley",
-      "nationality": "Britannique"
-    }
-  ]
+              {
+                "nom": "Liam",
+                "prenom": "Neeson",
+                "nationality": "Irlandaise"
+              },
+              {
+                "nom": "Ralph",
+                "prenom": "Fiennes",
+                "nationality": "Britannique"
+              },
+              {
+                "nom": "Ben",
+                "prenom": "Kingsley",
+                "nationality": "Britannique"
+              }
+            ]
 }, 
 {
   "titre": "The Shawshank Redemption",
@@ -146,22 +149,22 @@
   "poster": "imgg/The-Shawshank-Redemption.jpeg",
   "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
   "actors": [
-    {
-      "nom": "Tim",
-      "prenom": "Robbins",
-      "nationality": "American"
-    },
-    {
-      "nom": "Morgan",
-      "prenom": "Freeman",
-      "nationality": "American"
-    },
-    {
-      "nom": "Bob",
-      "prenom": "Gunton",
-      "nationality": "American"
-    }
-  ]
+              {
+                "nom": "Tim",
+                "prenom": "Robbins",
+                "nationality": "American"
+              },
+              {
+                "nom": "Morgan",
+                "prenom": "Freeman",
+                "nationality": "American"
+              },
+              {
+                "nom": "Bob",
+                "prenom": "Gunton",
+                "nationality": "American"
+              }
+            ]
 },
 {
   "titre": "The Godfather",
@@ -171,22 +174,22 @@
   "poster": "imgg/The-Godfather.jpeg",
   "festivals": ["Cannes Film Festival"],
   "actors": [
-    {
-      "nom": "Marlon",
-      "prenom": "Brando",
-      "nationality": "American"
-    },
-    {
-      "nom": "Al",
-      "prenom": "Pacino",
-      "nationality": "American"
-    },
-    {
-      "nom": "James",
-      "prenom": "Caan",
-      "nationality": "American"
-    }
-  ]
+              {
+                "nom": "Marlon",
+                "prenom": "Brando",
+                "nationality": "American"
+              },
+              {
+                "nom": "Al",
+                "prenom": "Pacino",
+                "nationality": "American"
+              },
+              {
+                "nom": "James",
+                "prenom": "Caan",
+                "nationality": "American"
+              }
+            ]
 },
 {
   "titre": "Inception",
@@ -196,16 +199,17 @@
   "poster": "imgg/Inception.jpeg",
   "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
   "actors": [
-    {
-      "nom": "Leonardo",
-      "prenom": "Caprio",
-      "nationality": "American"
-    },
-    {
-      "nom": "Joseph",
-      "prenom": "Gordon",
-      "nationality": "American"
-    }]
+              {
+                "nom": "Leonardo",
+                "prenom": "Caprio",
+                "nationality": "American"
+              },
+              {
+                "nom": "Joseph",
+                "prenom": "Gordon",
+                "nationality": "American"
+              }
+            ]
 }
   
 ]
