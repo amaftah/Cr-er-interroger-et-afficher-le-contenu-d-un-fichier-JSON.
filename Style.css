@@ -6,7 +6,7 @@
        {  background-color:#eee;
                font-family: "Poppins", sans-serif;
               font-weight: 300;
-              background-color: #000000;
+              background-color: #010e49;
 
        }
     
@@ -18,7 +18,7 @@
 
        .search{
        position: relative;
-       box-shadow: 0 0 40px rgb(202, 49, 49);
+       box-shadow: 0 0 40px rgb(73, 231, 236);
          
        }
 
@@ -26,7 +26,7 @@
 
         height: 60px;
         text-indent: 25px;
-        border: 2px solid #d6d4d4;
+        border: 2px solid #a4bff8;
 
 
        }
@@ -35,7 +35,7 @@
        .search input:focus{
 
         box-shadow: none;
-        border: 2px solid rgb(8, 8, 8);
+        border: 2px solid rgb(111, 53, 247);
 
 
        }
@@ -61,13 +61,13 @@
         right: 5px;
         height: 50px;
         width: 110px;
-        background:  rgb(245, 42, 42);
+        background:  rgb(2, 133, 126);
 
        }
       
        a:link {
               text-decoration: none;
-              color: #000000;
+              color: #5f26fc;
             }
             
             a:visited {
