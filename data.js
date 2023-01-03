@@ -1,4 +1,4 @@
-function load(){
+function reload(){
            
   var obj =new XMLHttpRequest();
   obj.open('GET','movies.json',true);

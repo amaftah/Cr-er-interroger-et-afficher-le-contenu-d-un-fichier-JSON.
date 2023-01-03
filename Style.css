@@ -24,7 +24,7 @@
 
        .search input{
 
-        height: 60px;
+        height: 35px;
         text-indent: 25px;
         border: 2px solid #a4bff8;
 
@@ -59,9 +59,9 @@
         position: absolute;
         top: 5px;
         right: 5px;
-        height: 50px;
+        height: 30px;
         width: 110px;
-        background:  rgb(2, 133, 126);
+        background:  rgb(0, 7, 7);
 
        }
       
