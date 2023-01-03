@@ -1,12 +1,12 @@
 function reload(){
            
-  var obj =new XMLHttpRequest();
-  obj.open('GET','movies.json',true);
+  var call =new XMLHttpRequest();
+  call.open('GET','movies.json',true);
   var th=document.getElementById('entete');
-  obj.onreadystatechange=function(){
-      if(obj.readyState===4 && obj.status===200){
+  call.onreadystatechange=function(){
+      if(call.readyState===4 && call.status===200){
          
-          var j=JSON.parse(obj.responseText);
+          var j=JSON.parse(call.responseText);
          
 
 
@@ -43,22 +43,9 @@ function reload(){
                           '<td class="align-middle text-center"><a href='+url+'>Poster Link </a> </td>'+
                           '<td >'+test+'</td>'
                           + '<td >'+res+'</td> </tr>'
-                                 
-                                  
-             
-                          
-                          );
-                  
-                      
-              
-                        
-                          
+                          );                
           }
-       
       }
-
-
-
   }
   obj.send();
 }  
@@ -73,11 +60,7 @@ tab.removeChild(tab.firstChild);
 
 request.onreadystatechange=function(){
       if(request.readyState===4 && request.status===200){
-                var data=JSON.parse(request.responseText);
-         
-
-
-          
+                var data=JSON.parse(request.responseText);         
           for (let e=0;e<data.length;e++)
            {
               var movie;
@@ -104,19 +87,10 @@ request.onreadystatechange=function(){
                                                       '<td class="align-middle text-center">'+movie.réalisateur+'</td>'+
                                                       '<td class="align-middle text-center">'+movie.durée+'</td>'+
                                                       '<td class="align-middle text-center">'+movie.année+'</td>'+
-                                                      '<td class="align-middle text-center"><a href='+url+'>Poster Link </a> </td>'+
+                                                      '<td class="align-middle text-center"><a href='+url+'>Poster Link </a></td>'+
                                                       '<td >'+fes+'</td>'
-                                                      + '<td >'+act+'</td> </tr> <br>');
-
-
-
-                
-
-                  
-                }
-             
-            
-                                  
+                                                      + '<td >'+act+'</td> </tr> <br>');                  
+                }                       
           }
       }
 
@@ -131,44 +105,40 @@ var table, rows, switching, x, y, shouldSwitch, dir, switchcount = 0;
 table = document.getElementById("table");
 switching = true;
 
-//Set the sorting direction to ascending:
+
 dir = "asc"; 
-//while loop that will continue until no switching has been done
+
 
 while (switching) {
-//start by saying: no switching is done:
+
 switching = false;
 rows = table.rows;
-//loop through all table rows  without thead
+
 for ( var i = 1; i < (rows.length - 1); i++) {
-//start by saying there should be no switching:
+
 shouldSwitch = false;
-//getting the value from the current cell and the next cell respecting the loop
 x = rows[i].getElementsByTagName("TD")[n];
 y = rows[i + 1].getElementsByTagName("TD")[n];
-//check if the two rows should switch
+
 if (dir == "asc") {
 if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-//if so, mark as a switch and break the loop:
+
 shouldSwitch= true;
 break;
 }
 } else if (dir == "desc") {
 if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-//if so, mark as a switch and break the loop:
+
 shouldSwitch= true;
 break;
 }
 }
 }
 if (shouldSwitch) {
-//log the switch value if true then switch and mark the as done
 rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
 switching = true;
-//Each time a switch is done, increase this count by 1:
 switchcount ++;      
 } else {
-//if the switch value is false, check if the direction is "asc" and set the direction to "desc" and run the while loop again.
 if (switchcount == 0 && dir == "asc") {
 dir = "desc";
 switching = true;
