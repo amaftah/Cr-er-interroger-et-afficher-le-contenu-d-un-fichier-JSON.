@@ -1,13 +1,13 @@
 [
   {
-      "titre": "Le Parrain",
+      "titre": "The Godfather",
       "réalisateur": "Francis Ford Coppola",
       "durée": 175,
       "année": 1972,
       "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/''The%20Godfather''%20by%20Francis%20Ford%20Coppola-%20Best%20picture%20-%20Oscar%20-%201973.jpg",
       "festivals": 
       [
-        "Festival de Cannes",
+        "Cannes film festival",
         "Oscars"
       ],
       "actors": 
@@ -32,7 +32,7 @@
   {
       "titre": "The Dark Knight",
       "réalisateur": "Christopher Nolan",
-      "durée": "152 minutes",
+      "durée": "152",
       "année": "2008",
       "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/_The%20Dark%20Knight.jpg",
       "festivals": [
@@ -60,7 +60,7 @@
   {
           "titre": "Pulp Fiction",
           "réalisateur": "Quentin Tarantino",
-          "durée": "154 minutes",
+          "durée": "154",
           "année": "1994",
           "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/Pulp%20Fiction%20(1994).jpg",
           "festivals": [
@@ -88,7 +88,7 @@
   {
     "titre": "Interstellar",
     "réalisateur": "Christopher Nolan",
-    "durée": "169 minutes",
+    "durée": "169",
     "année": "2014",
     "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/main/img/Interstellar%20-%202014%20-%20Movie%20Poster.jpg",
     "festivals":  [
@@ -212,14 +212,14 @@
             ]
 },
 {
-  "titre": "Le Parrain",
+  "titre": "The god father",
   "réalisateur": "Francis Ford Coppola",
   "durée": 175,
   "année": 1972,
   "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/''The%20Godfather''%20by%20Francis%20Ford%20Coppola-%20Best%20picture%20-%20Oscar%20-%201973.jpg",
   "festivals": 
   [
-    "Festival de Cannes",
+    "Cannes film festivals",
     "Oscars"
   ],
   "actors": 
@@ -244,7 +244,7 @@
 {
   "titre": "The Dark Knight",
   "réalisateur": "Christopher Nolan",
-  "durée": "152 minutes",
+  "durée": "152",
   "année": "2008",
   "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/_The%20Dark%20Knight.jpg",
   "festivals": [
@@ -272,7 +272,7 @@
 {
       "titre": "Pulp Fiction",
       "réalisateur": "Quentin Tarantino",
-      "durée": "154 minutes",
+      "durée": "154",
       "année": "1994",
       "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/Pulp%20Fiction%20(1994).jpg",
       "festivals": [
@@ -300,7 +300,7 @@
 {
 "titre": "Interstellar",
 "réalisateur": "Christopher Nolan",
-"durée": "169 minutes",
+"durée": "169",
 "année": "2014",
 "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/main/img/Interstellar%20-%202014%20-%20Movie%20Poster.jpg",
 "festivals":  [
