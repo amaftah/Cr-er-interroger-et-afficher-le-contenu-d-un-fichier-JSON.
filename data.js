@@ -44,7 +44,7 @@ function reload(){
           }
       }
   }
-  obj.send();
+  //call.send();
 }  
 function filtrer(titre){ 
 
@@ -77,16 +77,17 @@ request.onreadystatechange=function(){
                   fes+="<ul><li>"+movie.festivals[loop]+"<br>"+"</ul></li>";
                   
                  }
-                 tab.insertAdjacentHTML("afterbegin",'<tr  class="table-danger text-center"> <th>titre</th>'+' <th>réalisateur</th>'
-                                                      +'<th>durée</th>'+'<th>année</th> '+'<th>poster</th>'
-                                                      +'<th>festivals</th> '+'<th>actors</th> </tr>'
-                                                      +'<tr> <td class="align-middle text-center">'+movie.titre+'</td>'+
-                                                      '<td class="align-middle text-center">'+movie.réalisateur+'</td>'+
-                                                      '<td class="align-middle text-center">'+movie.durée+'</td>'+
-                                                      '<td class="align-middle text-center">'+movie.année+'</td>'+
-                                                      '<td class="align-middle text-center"><a href='+url+'>Poster Link </a></td>'+
-                                                      '<td >'+fes+'</td>'
-                                                      + '<td >'+act+'</td> </tr> <br>');                  
+                 tab.insertAdjacentHTML("afterbegin",'
+                 <tr  class="table-danger text-center"> <th>titre</th>'+' <th>réalisateur</th>'
+                 +'<th>durée</th>'+'<th>année</th> '+'<th>poster</th>'
+                 +'<th>festivals</th> '+'<th>actors</th> </tr>'
+                 +'<tr> <td class="align-middle text-center">'+movie.titre+'</td>'
+                 +'<td class="align-middle text-center">'+movie.réalisateur+'</td>'
+                 +'<td class="align-middle text-center">'+movie.durée+'</td>'
+                 +'<td class="align-middle text-center">'+movie.année+'</td>'
+                 +'<td class="align-middle text-center"><a href='+url+'>Poster Link </a></td>'
+                 +'<td >'+fes+'</td>'
+                + '<td >'+act+'</td> </tr> <br>');                  
                 }                       
           }
       }
