@@ -2,7 +2,7 @@
 
 
     
-       #bd
+        #bd
        {  background-color:#eee;
                font-family: "Poppins", sans-serif;
               font-weight: 300;
@@ -18,7 +18,7 @@
 
        .search{
        position: relative;
-       box-shadow: 0 0 40px rgb(73, 231, 236);
+       box-shadow: 0 0 40px rgb(42, 79, 80);
          
        }
 
@@ -85,12 +85,9 @@
        .row{
         padding-top: 15%;
         
-       }
-      #logo{
-       margin-left: 20px;
-      } 
+       } 
        h1{
-       color: #eee;
+       color: rgb(153, 104, 104);
      padding-top: 10%;
        margin-left: 34%;
       }

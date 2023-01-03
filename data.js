@@ -7,13 +7,10 @@ function reload(){
       if(call.readyState===4 && call.status===200){
          
           var j=JSON.parse(call.responseText);
-         
 
-
-          
-          for (let i =0;i<j.length;i++) {
+            for (let i =0;i<j.length;i++) {
               var url= j[i].poster;
-          var res;
+            var res;
           res="";
               for(var t=0;t<j[i].actors.length;t++)
             
@@ -93,9 +90,6 @@ request.onreadystatechange=function(){
                 }                       
           }
       }
-
-
-
   }
   request.send();
 }

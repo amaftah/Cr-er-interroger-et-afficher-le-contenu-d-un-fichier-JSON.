@@ -4,7 +4,7 @@
       "réalisateur": "Francis Ford Coppola",
       "durée": 175,
       "année": 1972,
-      "poster": "",
+      "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/''The%20Godfather''%20by%20Francis%20Ford%20Coppola-%20Best%20picture%20-%20Oscar%20-%201973.jpg",
       "festivals": 
       [
         "Festival de Cannes",
@@ -34,7 +34,7 @@
       "réalisateur": "Christopher Nolan",
       "durée": "152 minutes",
       "année": "2008",
-      "poster": "imgg/dark-knight.jpeg",
+      "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/_The%20Dark%20Knight.jpg",
       "festivals": [
                       "Cannes Film Festival",
                       "Toronto International Film Festival"
@@ -62,7 +62,7 @@
           "réalisateur": "Quentin Tarantino",
           "durée": "154 minutes",
           "année": "1994",
-          "poster": "g",
+          "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/Pulp%20Fiction%20(1994).jpg",
           "festivals": [
                           "Cannes Film Festival",
                           "Venice Film Festival"
@@ -90,7 +90,7 @@
     "réalisateur": "Christopher Nolan",
     "durée": "169 minutes",
     "année": "2014",
-    "poster": "imgg/Interstellar.jpeg",
+    "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/main/img/Interstellar%20-%202014%20-%20Movie%20Poster.jpg",
     "festivals":  [
                     "Venice Film Festival",
                     "Toronto International Film Festival"
@@ -118,7 +118,7 @@
   "réalisateur": "Steven Spielberg",
   "durée": 195,
   "année": 1993,
-  "poster": "imgg/La-Liste-de-Schindler.jpg",
+  "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/main/img/La%20Liste%20de%20Schindler%20est%20un%20drame%20historique%20am%C3%A9ricain%20r%C3%A9alis%C3%A9%20par%20Steven%20Spielberg,%20sorti%20le%2030%20novembre%201993,%20et%20inspir%C3%A9%20du%20roman%20%C3%A9ponyme%20La%20Liste%20de%20Schindler%20de%20Thomas%20Keneally%20sur%20Oskar%20Schindler,%20qui%20r%C3%A9ussit%20%C3%A0%20sauver%20.jpg",
   "festivals":  [
                   "Oscars",
                   "Golden Globes"
@@ -146,7 +146,7 @@
   "réalisateur": "Frank Darabont",
   "durée": 142,
   "année": 1994,
-  "poster": "imgg/The-Shawshank-Redemption.jpeg",
+  "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/The%20Shawshank%20Redemption%20%5BDVD%5D%20%5B1994%5D%20-%20Best%20Buy.jpg",
   "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
   "actors": [
               {
@@ -171,7 +171,7 @@
   "réalisateur": "Francis Ford Coppola",
   "durée": 175,
   "année": 1972,
-  "poster": "imgg/The-Godfather.jpeg",
+  "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/The%20Godfather%20Part%202.jpg",
   "festivals": ["Cannes Film Festival"],
   "actors": [
               {
@@ -196,7 +196,7 @@
   "réalisateur": "Christopher Nolan",
   "durée": 148,
   "année": 2010,
-  "poster": "imgg/Inception.jpeg",
+  "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/main/img/Inception%20-%20PosterSpy.jpg",
   "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
   "actors": [
               {
@@ -216,7 +216,7 @@
   "réalisateur": "Francis Ford Coppola",
   "durée": 175,
   "année": 1972,
-  "poster": "imgg/le-parrain-affiche-francaise-1173785.jpg",
+  "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/''The%20Godfather''%20by%20Francis%20Ford%20Coppola-%20Best%20picture%20-%20Oscar%20-%201973.jpg",
   "festivals": 
   [
     "Festival de Cannes",
@@ -246,7 +246,7 @@
   "réalisateur": "Christopher Nolan",
   "durée": "152 minutes",
   "année": "2008",
-  "poster": "imgg/dark-knight.jpeg",
+  "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/_The%20Dark%20Knight.jpg",
   "festivals": [
                   "Cannes Film Festival",
                   "Toronto International Film Festival"
@@ -274,7 +274,7 @@
       "réalisateur": "Quentin Tarantino",
       "durée": "154 minutes",
       "année": "1994",
-      "poster": "g",
+      "poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/Pulp%20Fiction%20(1994).jpg",
       "festivals": [
                       "Cannes Film Festival",
                       "Venice Film Festival"
@@ -302,7 +302,7 @@
 "réalisateur": "Christopher Nolan",
 "durée": "169 minutes",
 "année": "2014",
-"poster": "imgg/Interstellar.jpeg",
+"poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/main/img/Interstellar%20-%202014%20-%20Movie%20Poster.jpg",
 "festivals":  [
                 "Venice Film Festival",
                 "Toronto International Film Festival"
@@ -358,7 +358,7 @@
 "réalisateur": "Frank Darabont",
 "durée": 142,
 "année": 1994,
-"poster": "imgg/The-Shawshank-Redemption.jpeg",
+"poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/The%20Shawshank%20Redemption%20%5BDVD%5D%20%5B1994%5D%20-%20Best%20Buy.jpg",
 "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
 "actors": [
           {
@@ -383,7 +383,7 @@
 "réalisateur": "Francis Ford Coppola",
 "durée": 175,
 "année": 1972,
-"poster": "imgg/The-Godfather.jpeg",
+"poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/c2424997b02193bf85c7db227d5f04e769d6ae5a/img/''The%20Godfather''%20by%20Francis%20Ford%20Coppola-%20Best%20picture%20-%20Oscar%20-%201973.jpg",
 "festivals": ["Cannes Film Festival"],
 "actors": [
           {
@@ -408,7 +408,7 @@
 "réalisateur": "Christopher Nolan",
 "durée": 148,
 "année": 2010,
-"poster": "imgg/Inception.jpeg",
+"poster": "https://github.com/mafghal/Cr-er-interroger-et-afficher-le-contenu-d-un-fichier-JSON./blob/main/img/Inception%20-%20PosterSpy.jpg",
 "festivals": ["Cannes Film Festival", "Toronto International Film Festival"],
 "actors": [
           {
