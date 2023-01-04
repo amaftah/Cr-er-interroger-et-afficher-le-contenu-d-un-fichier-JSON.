@@ -44,10 +44,9 @@ function reload(){
           }
       }
   }
-  //call.send();
+  call.send();
 }  
 function filtrer(titre){ 
-
 var request =new XMLHttpRequest();
 request.open('GET','movies.json',true);
   var tab=document.getElementById('table');
@@ -59,11 +58,11 @@ request.onreadystatechange=function(){
       if(request.readyState===4 && request.status===200){
                 var data=JSON.parse(request.responseText);         
           for (let e=0;e<data.length;e++)
-           {
+           {          
               var movie;
               movie=data[e];
               var url= movie.poster;
-              if(movie.titre.startsWith(titre))
+              if(movie.titre.toLowerCase().startsWith(titre.toLowerCase()))
               {
                  var act;
                  act="";
@@ -77,8 +76,7 @@ request.onreadystatechange=function(){
                   fes+="<ul><li>"+movie.festivals[loop]+"<br>"+"</ul></li>";
                   
                  }
-                 tab.insertAdjacentHTML("afterbegin",'
-                 <tr  class="table-danger text-center"> <th>titre</th>'+' <th>réalisateur</th>'
+                 tab.insertAdjacentHTML("afterbegin",'<tr class="table-danger text-center"> <th>titre</th>'+' <th>réalisateur</th>'
                  +'<th>durée</th>'+'<th>année</th> '+'<th>poster</th>'
                  +'<th>festivals</th> '+'<th>actors</th> </tr>'
                  +'<tr> <td class="align-middle text-center">'+movie.titre+'</td>'
